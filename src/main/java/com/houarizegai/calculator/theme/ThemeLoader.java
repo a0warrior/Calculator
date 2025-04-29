@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.util.Collections;
 import java.util.Map;
 
-public class ThemeLoader {
+public final class ThemeLoader {
 
     private ThemeLoader() {
         throw new AssertionError("Constructor is not allowed");
